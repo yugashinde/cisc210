@@ -8,8 +8,10 @@ int main(int argc,char** argv){
         int sum = 0 ;
         int i = 0;
 
-        for (i=0;i<argc;i++){
+        if (argc == 4 ){
+                for (i=0;i<argc;i++){
                 sum=sum + atoi(argv[i]);
+                }
         }
         return sum;
 }
