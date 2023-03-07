@@ -8,7 +8,7 @@ int main(int argc,char** argv){
                 return 0;
         }
         else if (argc == 4 ){
-                for (i=0;i<argc;i++){
+                for (i=0;i<=argc;i++){
                 sum=sum + atoi(argv[i]);
                 }
                 return sum;
