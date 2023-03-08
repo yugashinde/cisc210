@@ -9,7 +9,7 @@ int main(int argc,char** argv){
         int sum = 0 ;
         int i = 0;
         else{
-                for (i=0;i<argc;i++){
+                for (i=0;i<argc+1;++i){
                 sum=sum + atoi(argv[i]);
                 }
         return sum;
