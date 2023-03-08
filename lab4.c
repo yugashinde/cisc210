@@ -1,20 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int main(int argc,char** argv){
-        int sum = 0 ;
-        int i = 0;
-        
-        if (argc > 5 ){
+        if (argc < 4 || argc > 4){
                 return 0;
         }
-        else if (argc <= 4 ){
-                for (i=0;i < 5;i++){
+        int sum = 0 ;
+        int i = 0;
+        else{
+                for (i=0;i<argc;i++){
                 sum=sum + atoi(argv[i]);
                 }
-                return sum;
+        return sum;
         }
         
-        
-      
 }
