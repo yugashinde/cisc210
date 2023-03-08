@@ -6,7 +6,7 @@ int main(int argc,char** argv){
         
         int sum = 0 ;
         int i = 0;
-        if (argc > 5 || argc == 0){
+        if (argc > 5 || argc == 1){
                 return 0;
         }
         else{
