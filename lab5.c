@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_DIGITS 100
+
 int main(int argc ,char** argv){
-        char remainders[MAX_DIGITS];
+        char remainders[100];
         int number1;
         int i = 0 ;
         
