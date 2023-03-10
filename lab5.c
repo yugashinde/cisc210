@@ -8,14 +8,14 @@ int main(int argc ,char** argv){
         
         scanf("%d",&number);
         int i = 0 ;
-        while(number != 0 ){
+        while(number > 0 ){
                 remainders[i] = number % 2 ;
                 number = number / 2;
  
                 i++;
         } 
         int x = 0;
-        for(x = i;x>=0;x--){
+        for(x = i;x > 0;x--){
                 printf("%d",remainders[x]);
         }               
         return 0;
