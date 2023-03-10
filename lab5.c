@@ -14,7 +14,7 @@ int main(int argc ,char** argv){
                 number1 = number1/2;
                 i++;
         }                           
-        for(x=i-1;x>=0;x--){
+        for(x= i;x>=0;x--){
                 prinf("%d",&remainders[x]);
         }               
         return 0;
