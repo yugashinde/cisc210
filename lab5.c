@@ -14,8 +14,9 @@ int main(int argc ,char** argv){
  
                 i++;
         } 
+        remainders[i] = number;
         int x = 0; 
-        for(x= i-1;x>=0;x--){
+        for(x= i;x>=0;x--){
                 printf("%c", remainders[x]);
         }               
         return 0;
