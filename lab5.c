@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 #define MAX_NUMBER 100
@@ -5,15 +6,16 @@ int main(int argc ,char** argv){
         char remainders[MAX_NUMBER];
         int number;
        
-        int x = 0;
+        int i = 0;
         scanf("%d",&number);
         while(number > 0 ){
-                remainders[x] = number % 2 ;
+                remainders[i] = number % 2 ;
                 number = number / 2;
-                x++;
+                i++;
         } 
-        for(int i = x - 1, i >= 0, i--){
-                printf("%d",remainders[i]);
-        }               
+        for(int x = i - 1, x >= 0, x--){
+                printf("%d",remainders[x]);
+        }
+        printf("/n");
         return 0;
 } 
