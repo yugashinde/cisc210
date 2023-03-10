@@ -3,7 +3,7 @@
 
 #define MAX_NUMBER 100
 int main(int argc ,char** argv){
-        char remainders[MAX_NUMBER];
+        int remainders[MAX_NUMBER];
         int number1;
         
         scanf("%d",&number1);
