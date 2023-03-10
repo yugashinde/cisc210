@@ -16,6 +16,6 @@ int main(int argc ,char** argv){
         for(int x = i - 1, x >= 0, x--){
                 printf("%d",remainders[x]);
         }
-        printf("/n");
+        printf("\n");
         return 0;
 } 
