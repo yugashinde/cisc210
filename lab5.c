@@ -13,7 +13,7 @@ int main(int argc ,char** argv){
                 number = number / 2;
                 i++;
         } 
-        for(int x = i - 1, x >= 0, x--){
+        for(int x = i - 1; x >= 0; x--){
                 printf("%d",remainders[x]);
         }
         printf("\n");
