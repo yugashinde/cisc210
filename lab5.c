@@ -5,17 +5,16 @@
 int main(int argc ,char** argv){
         char remainders[MAX_NUMBER];
         int number1;
-        int i = 0 ;
         
         scanf("%d",&number1);
-        
-        while(number1>0){
+        int i = 0 ;
+        While(number1>0){
                 remainders[i] = number1%2 ;
                 number1 = number1/2;
                 i++;
         }                           
-        for(x= i;x>=0;x--){
-                prinf("%d",&remainders[x]);
+        for(x= i-1;x>=0;x--){
+                prinf("%d", remainders[x]);
         }               
         return 0;
 }
