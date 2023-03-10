@@ -14,10 +14,11 @@ int main(int argc ,char** argv){
  
                 i++;
         } 
-        remainders[i] = number;
+        
         int x = 0; 
-        for(x= i;x>=0;x--){
-                printf("%c", remainders[x]);
+        char r[MAX_NUMBER];
+        for(x = i;x>=0;x--){
+                printf("%d",r[x]);
         }               
         return 0;
 }
