@@ -16,4 +16,4 @@ int main(int argc ,char** argv){
                 printf("%d",remainders[x]);
         }               
         return 0;
-}                                                                                                                                                                              18,2          All
+} 
