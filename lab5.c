@@ -7,7 +7,7 @@ int main(int argc ,char** argv){
         int number;
         
         scanf("%d",&number);
-        int i = 0 ;
+        int i = 1 ;
         while(number > 0 ){
                 remainders[i] = number % 2 ;
                 number = number / 2;
