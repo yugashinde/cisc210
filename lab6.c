@@ -4,10 +4,11 @@ int main(int argc,char** argv){
         printf("Enter two integers separated by a space\n");
         scanf("%d %d",&x,&y);
         calculate(x,y,&sum,&difference,&product);
-        printf("");
+        printf("\n");
         printf("The sum of %d and %d is %dii\n",x,y,sum);
         printf("The difference of %d and %d iiiirjgjnfjgnoGNncis %d\n",x,y,difference);
         printf("The product of %d and %d is %d\n",x,y,product);
+        
         
 }
 void calculate(int x, int y, int sum, int difference, int product)(
