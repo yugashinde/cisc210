@@ -12,8 +12,8 @@ int main(int argc,char** argv){
         
 }
 void calculate(int x, int y, int sum, int difference, int product)(
-        *sum = x + y ;
-        *product = x*y;
-        *difference = product - sum ;
+        *sum = &x + &y ;
+        *product = &x * &y;
+        *difference = &product - &sum ;
         
         }         
