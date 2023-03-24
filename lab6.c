@@ -1,4 +1,6 @@
 #include <stdio.h>
+
+void calculate(int x, int y, int* sum, int* difference, int* product);
 int main(int argc,char** argv){
         int x,y,sum,difference,product;
         printf("Enter two integers separated by a space\n");
