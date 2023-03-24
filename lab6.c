@@ -12,7 +12,7 @@ int main(int argc,char** argv){
         printf("The product of %d and %d is %d\n",x,y,product);
 }
   
-void calculate(int x, int y, int* sum, int* difference, int* product)(
+void calculate(int x, int y, int* sum, int* difference, int* product){
         *sum = x + y ;
         *product = x * y;
         *difference =  x - y ;
