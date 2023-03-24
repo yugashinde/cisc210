@@ -4,7 +4,7 @@
 void calculate(int x, int y, int* sum, int* difference, int* product)(
         *sum = x + y ;
         *product = x * y;
-        *difference = *product - *sum ;
+        *difference = *sum - *product;
         }         
 
 int main(int argc,char** argv){
