@@ -15,7 +15,6 @@ int main(int argc,char** argv){
         printf("The sum of %d and %d is %d\n",x,y,sum);
         printf("The difference of %d and %d is %d\n",x,y,difference);
         printf("The product of %d and %d is %d\n",x,y,product);
-        
 }
         
         
