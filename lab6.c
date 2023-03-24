@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-void calculate(int x, int y, int* sum, int* difference, int* product);
-
-void calculate(int x, int y, int* sum, int* difference, int* product)(
-        *sum = x + y ;
-        *product = x * y;
-        *difference =  x - y ;
-        }         
+void calculate(int x, int y, int* sum, int* difference, int* product);      
 
 int main(int argc,char** argv){
         int x,y,sum,difference,product;
@@ -17,5 +11,10 @@ int main(int argc,char** argv){
         printf("The difference of %d and %d is %d\n",x,y,difference);
         printf("The product of %d and %d is %d\n",x,y,product);
 }
-        
+  
+void calculate(int x, int y, int* sum, int* difference, int* product)(
+        *sum = x + y ;
+        *product = x * y;
+        *difference =  x - y ;
+        }   
         
