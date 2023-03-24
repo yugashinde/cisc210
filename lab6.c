@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void calculate(int x, int y, int* sum, int* difference, int* product);
 
 void calculate(int x, int y, int* sum, int* difference, int* product)(
         *sum = x + y ;
